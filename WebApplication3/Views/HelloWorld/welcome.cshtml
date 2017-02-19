@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.title = "welcome page";
+}
+
+@{
+    for (int i = 0; i < @ViewBag.num; i++)
+    {
+        <p>@ViewBag.message</p>
+    }
+}  
